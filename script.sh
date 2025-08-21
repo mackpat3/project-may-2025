@@ -29,4 +29,6 @@ function install_apps() {
 prepare_vm
 create_ec2
 update_ip
+echo "Waiting 20 sec"
+sleep 20
 install_apps
