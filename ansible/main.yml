@@ -2,3 +2,5 @@
   become: yes
   roles:
   - prometheus
+  - node-exporter
+  - grafana
